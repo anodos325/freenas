@@ -110,6 +110,7 @@ class SMBService(SystemServiceService):
         Str('workgroup'),
         Str('description'),
         Str('doscharset'),
+        Bool('allow_smb1'),
         Str('unixcharset'),
         Str('loglevel', enum=['NONE', 'MINIMUM', 'NORMAL', 'FULL', 'DEBUG']),
         Bool('syslog'),
